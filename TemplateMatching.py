@@ -1,10 +1,7 @@
 # Needed imports
 
 import cv2
-import numpy as np
 import matplotlib.pyplot as plt
-import imutils
-import time
 
 def sliding_window(image, stepSize, windowSize):
     # slide a window across the image
